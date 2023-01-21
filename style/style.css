@@ -1,0 +1,117 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'YekanBakhBold';
+}
+
+header {
+  /* width: 1240px; */
+  margin: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: rgbA(231, 246, 242, 0.8);
+  position: sticky;
+  top: 0px;
+  z-index: 100000;
+}
+
+.logo {
+  margin-right: 15px;
+}
+
+.backimg p {
+  position: absolute;
+  top: 18rem;
+  right: 150px;
+  font-family: iranyekanwebmedium;
+  font-weight: 200;
+  color: #E5E0FF;
+  transition: all 3s;
+  transition-timing-function: ease-in-out;
+  font-size: 1.8rem;
+}
+
+.backimg .inline {
+  width: 560px;
+  height: 2px;
+  display: block;
+  background: #E5E0FF;
+  position: absolute;
+  top: 340px;
+  right: 150px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0px 30px;
+  color: #00337C;
+  font-size: 1.3rem;
+}
+
+.footer-container {
+  /* width: 1240px; */
+  margin: auto;
+  background-color: rgbA(231, 246, 242, 0.8);
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+}
+
+.nemadphoto a {
+  padding: 0px 10px;
+  margin-left: 20px;
+}
+
+.nemadpic {
+  max-width: 100%;
+  width: 90px;
+  height: 120px;
+  border-radius: 10%;
+
+}
+
+.fab {
+  width: 30px;
+  height: 30px;
+  color: rgb(231, 246, 242);
+  background-color: #00337C;
+  margin: 5px 10px;
+  padding: 5px;
+  border: 3px solid #00337C;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+
+}
+
+.fab:hover {
+  background-color: antiquewhite;
+  color: #00337C;
+}
+
+
+.nemadphoto {
+  margin-right: 600px;
+ margin-top: 20px;
+}
+
+.footer-container p {
+  color: #00337C;
+  font-size: 1.5rem;
+
+}
+
+
+
+
+
+.backimg {
+  background: url(../img/back\ -\ Copy.jpg);
+  width: 100٪;
+  height: 750px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
